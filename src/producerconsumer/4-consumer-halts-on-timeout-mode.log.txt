@@ -1,0 +1,33 @@
+/usr/lib/jvm/java-8-openjdk-amd64/bin/java -javaagent:/snap/intellij-idea-community/226/lib/idea_rt.jar=36873:/snap/intellij-idea-community/226/bin -Dfile.encoding=UTF-8 -classpath /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/cldrdata.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/dnsns.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/icedtea-sound.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/jaccess.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/java-atk-wrapper.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/localedata.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/nashorn.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/sunec.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/sunjce_provider.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/sunpkcs11.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/zipfs.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/management-agent.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/home/saurabh/github/java-concurrency/out/production/java-concurrency Main producerconsumer.ProducerConsumerSnippet 4
+May 24, 2020 3:51:57 AM producerconsumer.ProducerConsumerSnippet runSnippet
+INFO: Running in 'consumer halts on time-out' mode
+May 24, 2020 3:51:57 AM producerconsumer.Consumer run
+INFO: Consumer starting...
+May 24, 2020 3:51:57 AM producerconsumer.Consumer run
+WARNING: Consumer waiting: queue is empty!
+May 24, 2020 3:52:07 AM producerconsumer.Producer run
+INFO: Producer starting...
+May 24, 2020 3:52:07 AM producerconsumer.Producer run
+INFO: Produced: Message0
+May 24, 2020 3:52:07 AM producerconsumer.Consumer run
+INFO: timeInWaiting = 10002
+May 24, 2020 3:52:07 AM producerconsumer.Consumer run
+INFO: Consumed: Message0
+May 24, 2020 3:52:07 AM producerconsumer.Consumer run
+WARNING: Consumer waiting: queue is empty!
+May 24, 2020 3:52:37 AM producerconsumer.Consumer run
+INFO: timeInWaiting = 30000
+May 24, 2020 3:52:37 AM producerconsumer.Consumer run
+WARNING: Consumer waiting: queue is empty!
+May 24, 2020 3:53:07 AM producerconsumer.Consumer run
+INFO: timeInWaiting = 60000
+May 24, 2020 3:53:07 AM producerconsumer.Consumer run
+WARNING: Consumer waiting: queue is empty!
+May 24, 2020 3:53:37 AM producerconsumer.Consumer run
+INFO: timeInWaiting = 90000
+May 24, 2020 3:53:37 AM producerconsumer.Consumer run
+WARNING: Consumer halting: no message appeared on the queue for last 90 seconds!
+May 24, 2020 3:53:38 AM producerconsumer.Producer run
+INFO: Produced: Message1
+
+Process finished with exit code 130 (interrupted by signal 2: SIGINT)

@@ -1,0 +1,419 @@
+/usr/lib/jvm/java-8-openjdk-amd64/bin/java -javaagent:/snap/intellij-idea-community/226/lib/idea_rt.jar=43863:/snap/intellij-idea-community/226/bin -Dfile.encoding=UTF-8 -classpath /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/cldrdata.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/dnsns.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/icedtea-sound.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/jaccess.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/java-atk-wrapper.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/localedata.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/nashorn.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/sunec.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/sunjce_provider.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/sunpkcs11.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/zipfs.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/management-agent.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/home/saurabh/github/java-concurrency/out/production/java-concurrency Main producerconsumer.ProducerConsumerSnippet 3
+May 24, 2020 3:27:17 AM producerconsumer.ProducerConsumerSnippet runSnippet
+INFO: Running in 'producer yields after producing each message' mode
+May 24, 2020 3:27:17 AM producerconsumer.Consumer run
+INFO: Consumer starting...
+May 24, 2020 3:27:17 AM producerconsumer.Consumer run
+WARNING: Consumer waiting: queue is empty!
+May 24, 2020 3:27:27 AM producerconsumer.Producer run
+INFO: Producer starting...
+May 24, 2020 3:27:27 AM producerconsumer.Producer run
+INFO: Produced: Message0
+May 24, 2020 3:27:27 AM producerconsumer.Consumer run
+INFO: timeInWaiting = 10007
+May 24, 2020 3:27:27 AM producerconsumer.Consumer run
+INFO: Consumed:Message0
+May 24, 2020 3:27:27 AM producerconsumer.Producer run
+INFO: Produced: Message1
+May 24, 2020 3:27:27 AM producerconsumer.Producer run
+INFO: Produced: Message2
+May 24, 2020 3:27:27 AM producerconsumer.Producer run
+INFO: Produced: Message3
+May 24, 2020 3:27:27 AM producerconsumer.Producer run
+INFO: Produced: Message4
+May 24, 2020 3:27:27 AM producerconsumer.Consumer run
+INFO: Consumed:Message1
+May 24, 2020 3:27:27 AM producerconsumer.Producer run
+INFO: Produced: Message5
+May 24, 2020 3:27:27 AM producerconsumer.Producer run
+INFO: Produced: Message6
+May 24, 2020 3:27:27 AM producerconsumer.Producer run
+INFO: Produced: Message7
+May 24, 2020 3:27:27 AM producerconsumer.Producer run
+INFO: Produced: Message8
+May 24, 2020 3:27:27 AM producerconsumer.Producer run
+INFO: Produced: Message9
+May 24, 2020 3:27:27 AM producerconsumer.Producer run
+INFO: Produced: Message10
+May 24, 2020 3:27:27 AM producerconsumer.Producer run
+INFO: Produced: Message11
+May 24, 2020 3:27:27 AM producerconsumer.Producer run
+INFO: Produced: Message12
+May 24, 2020 3:27:27 AM producerconsumer.Producer run
+INFO: Produced: Message13
+May 24, 2020 3:27:27 AM producerconsumer.Producer run
+INFO: Produced: Message14
+May 24, 2020 3:27:27 AM producerconsumer.Producer run
+INFO: Produced: Message15
+May 24, 2020 3:27:27 AM producerconsumer.Producer run
+INFO: Produced: Message16
+May 24, 2020 3:27:27 AM producerconsumer.Producer run
+INFO: Produced: Message17
+May 24, 2020 3:27:27 AM producerconsumer.Producer run
+INFO: Produced: Message18
+May 24, 2020 3:27:27 AM producerconsumer.Producer run
+INFO: Produced: Message19
+May 24, 2020 3:27:27 AM producerconsumer.Producer run
+INFO: Produced: Message20
+May 24, 2020 3:27:27 AM producerconsumer.Producer run
+INFO: Produced: Message21
+May 24, 2020 3:27:27 AM producerconsumer.Producer run
+INFO: Produced: Message22
+May 24, 2020 3:27:27 AM producerconsumer.Producer run
+INFO: Produced: Message23
+May 24, 2020 3:27:27 AM producerconsumer.Producer run
+INFO: Produced: Message24
+May 24, 2020 3:27:27 AM producerconsumer.Producer run
+INFO: Produced: Message25
+May 24, 2020 3:27:27 AM producerconsumer.Producer run
+INFO: Produced: Message26
+May 24, 2020 3:27:27 AM producerconsumer.Producer run
+INFO: Produced: Message27
+May 24, 2020 3:27:27 AM producerconsumer.Producer run
+INFO: Produced: Message28
+May 24, 2020 3:27:27 AM producerconsumer.Producer run
+INFO: Produced: Message29
+May 24, 2020 3:27:27 AM producerconsumer.Producer run
+INFO: Produced: Message30
+May 24, 2020 3:27:27 AM producerconsumer.Producer run
+INFO: Produced: Message31
+May 24, 2020 3:27:27 AM producerconsumer.Producer run
+INFO: Produced: Message32
+May 24, 2020 3:27:27 AM producerconsumer.Producer run
+INFO: Produced: Message33
+May 24, 2020 3:27:27 AM producerconsumer.Producer run
+INFO: Produced: Message34
+May 24, 2020 3:27:27 AM producerconsumer.Producer run
+INFO: Produced: Message35
+May 24, 2020 3:27:27 AM producerconsumer.Producer run
+INFO: Produced: Message36
+May 24, 2020 3:27:27 AM producerconsumer.Producer run
+INFO: Produced: Message37
+May 24, 2020 3:27:27 AM producerconsumer.Producer run
+INFO: Produced: Message38
+May 24, 2020 3:27:27 AM producerconsumer.Consumer run
+INFO: Consumed:Message2
+May 24, 2020 3:27:27 AM producerconsumer.Producer run
+INFO: Produced: Message39
+May 24, 2020 3:27:27 AM producerconsumer.Producer run
+INFO: Produced: Message40
+May 24, 2020 3:27:27 AM producerconsumer.Consumer run
+INFO: Consumed:Message3
+May 24, 2020 3:27:27 AM producerconsumer.Producer run
+INFO: Produced: Message41
+May 24, 2020 3:27:27 AM producerconsumer.Producer run
+INFO: Produced: Message42
+May 24, 2020 3:27:27 AM producerconsumer.Consumer run
+INFO: Consumed:Message4
+May 24, 2020 3:27:27 AM producerconsumer.Producer run
+INFO: Produced: Message43
+May 24, 2020 3:27:27 AM producerconsumer.Producer run
+INFO: Produced: Message44
+May 24, 2020 3:27:27 AM producerconsumer.Consumer run
+INFO: Consumed:Message5
+May 24, 2020 3:27:27 AM producerconsumer.Producer run
+INFO: Produced: Message45
+May 24, 2020 3:27:27 AM producerconsumer.Producer run
+INFO: Produced: Message46
+May 24, 2020 3:27:27 AM producerconsumer.Consumer run
+INFO: Consumed:Message6
+May 24, 2020 3:27:27 AM producerconsumer.Producer run
+INFO: Produced: Message47
+May 24, 2020 3:27:27 AM producerconsumer.Producer run
+INFO: Produced: Message48
+May 24, 2020 3:27:27 AM producerconsumer.Consumer run
+INFO: Consumed:Message7
+May 24, 2020 3:27:27 AM producerconsumer.Producer run
+INFO: Produced: Message49
+May 24, 2020 3:27:27 AM producerconsumer.Consumer run
+INFO: Consumed:Message8
+May 24, 2020 3:27:27 AM producerconsumer.Producer run
+INFO: Produced: Message50
+May 24, 2020 3:27:27 AM producerconsumer.Consumer run
+INFO: Consumed:Message9
+May 24, 2020 3:27:27 AM producerconsumer.Producer run
+INFO: Produced: Message51
+May 24, 2020 3:27:27 AM producerconsumer.Consumer run
+INFO: Consumed:Message10
+May 24, 2020 3:27:27 AM producerconsumer.Producer run
+INFO: Produced: Message52
+May 24, 2020 3:27:27 AM producerconsumer.Producer run
+INFO: Produced: Message53
+May 24, 2020 3:27:27 AM producerconsumer.Consumer run
+INFO: Consumed:Message11
+May 24, 2020 3:27:27 AM producerconsumer.Producer run
+INFO: Produced: Message54
+May 24, 2020 3:27:27 AM producerconsumer.Producer run
+INFO: Produced: Message55
+May 24, 2020 3:27:27 AM producerconsumer.Consumer run
+INFO: Consumed:Message12
+May 24, 2020 3:27:27 AM producerconsumer.Producer run
+INFO: Produced: Message56
+May 24, 2020 3:27:27 AM producerconsumer.Producer run
+INFO: Produced: Message57
+May 24, 2020 3:27:27 AM producerconsumer.Consumer run
+INFO: Consumed:Message13
+May 24, 2020 3:27:27 AM producerconsumer.Producer run
+INFO: Produced: Message58
+May 24, 2020 3:27:27 AM producerconsumer.Producer run
+INFO: Produced: Message59
+May 24, 2020 3:27:27 AM producerconsumer.Consumer run
+INFO: Consumed:Message14
+May 24, 2020 3:27:27 AM producerconsumer.Producer run
+INFO: Produced: Message60
+May 24, 2020 3:27:27 AM producerconsumer.Producer run
+INFO: Produced: Message61
+May 24, 2020 3:27:27 AM producerconsumer.Consumer run
+INFO: Consumed:Message15
+May 24, 2020 3:27:27 AM producerconsumer.Producer run
+INFO: Produced: Message62
+May 24, 2020 3:27:27 AM producerconsumer.Consumer run
+INFO: Consumed:Message16
+May 24, 2020 3:27:27 AM producerconsumer.Producer run
+INFO: Produced: Message63
+May 24, 2020 3:27:27 AM producerconsumer.Consumer run
+INFO: Consumed:Message17
+May 24, 2020 3:27:27 AM producerconsumer.Producer run
+INFO: Produced: Message64
+May 24, 2020 3:27:27 AM producerconsumer.Consumer run
+INFO: Consumed:Message18
+May 24, 2020 3:27:27 AM producerconsumer.Producer run
+INFO: Produced: Message65
+May 24, 2020 3:27:27 AM producerconsumer.Producer run
+INFO: Produced: Message66
+May 24, 2020 3:27:27 AM producerconsumer.Consumer run
+INFO: Consumed:Message19
+May 24, 2020 3:27:27 AM producerconsumer.Producer run
+INFO: Produced: Message67
+May 24, 2020 3:27:27 AM producerconsumer.Producer run
+INFO: Produced: Message68
+May 24, 2020 3:27:27 AM producerconsumer.Consumer run
+INFO: Consumed:Message20
+May 24, 2020 3:27:27 AM producerconsumer.Producer run
+INFO: Produced: Message69
+May 24, 2020 3:27:27 AM producerconsumer.Consumer run
+INFO: Consumed:Message21
+May 24, 2020 3:27:27 AM producerconsumer.Producer run
+INFO: Produced: Message70
+May 24, 2020 3:27:27 AM producerconsumer.Producer run
+INFO: Produced: Message71
+May 24, 2020 3:27:27 AM producerconsumer.Consumer run
+INFO: Consumed:Message22
+May 24, 2020 3:27:27 AM producerconsumer.Producer run
+INFO: Produced: Message72
+May 24, 2020 3:27:27 AM producerconsumer.Producer run
+INFO: Produced: Message73
+May 24, 2020 3:27:27 AM producerconsumer.Consumer run
+INFO: Consumed:Message23
+May 24, 2020 3:27:27 AM producerconsumer.Producer run
+INFO: Produced: Message74
+May 24, 2020 3:27:27 AM producerconsumer.Producer run
+INFO: Produced: Message75
+May 24, 2020 3:27:27 AM producerconsumer.Producer run
+INFO: Produced: Message76
+May 24, 2020 3:27:27 AM producerconsumer.Producer run
+INFO: Produced: Message77
+May 24, 2020 3:27:27 AM producerconsumer.Producer run
+INFO: Produced: Message78
+May 24, 2020 3:27:27 AM producerconsumer.Producer run
+INFO: Produced: Message79
+May 24, 2020 3:27:27 AM producerconsumer.Producer run
+INFO: Produced: Message80
+May 24, 2020 3:27:27 AM producerconsumer.Producer run
+INFO: Produced: Message81
+May 24, 2020 3:27:27 AM producerconsumer.Consumer run
+INFO: Consumed:Message24
+May 24, 2020 3:27:27 AM producerconsumer.Producer run
+INFO: Produced: Message82
+May 24, 2020 3:27:27 AM producerconsumer.Producer run
+INFO: Produced: Message83
+May 24, 2020 3:27:27 AM producerconsumer.Producer run
+INFO: Produced: Message84
+May 24, 2020 3:27:27 AM producerconsumer.Producer run
+INFO: Produced: Message85
+May 24, 2020 3:27:27 AM producerconsumer.Producer run
+INFO: Produced: Message86
+May 24, 2020 3:27:27 AM producerconsumer.Producer run
+INFO: Produced: Message87
+May 24, 2020 3:27:27 AM producerconsumer.Producer run
+INFO: Produced: Message88
+May 24, 2020 3:27:27 AM producerconsumer.Consumer run
+INFO: Consumed:Message25
+May 24, 2020 3:27:27 AM producerconsumer.Producer run
+INFO: Produced: Message89
+May 24, 2020 3:27:27 AM producerconsumer.Producer run
+INFO: Produced: Message90
+May 24, 2020 3:27:27 AM producerconsumer.Producer run
+INFO: Produced: Message91
+May 24, 2020 3:27:27 AM producerconsumer.Producer run
+INFO: Produced: Message92
+May 24, 2020 3:27:27 AM producerconsumer.Producer run
+INFO: Produced: Message93
+May 24, 2020 3:27:27 AM producerconsumer.Producer run
+INFO: Produced: Message94
+May 24, 2020 3:27:27 AM producerconsumer.Producer run
+INFO: Produced: Message95
+May 24, 2020 3:27:27 AM producerconsumer.Producer run
+INFO: Produced: Message96
+May 24, 2020 3:27:27 AM producerconsumer.Producer run
+INFO: Produced: Message97
+May 24, 2020 3:27:27 AM producerconsumer.Consumer run
+INFO: Consumed:Message26
+May 24, 2020 3:27:27 AM producerconsumer.Producer run
+INFO: Produced: Message98
+May 24, 2020 3:27:27 AM producerconsumer.Producer run
+INFO: Produced: Message99
+May 24, 2020 3:27:27 AM producerconsumer.Producer run
+INFO: Producer halting...
+May 24, 2020 3:27:27 AM producerconsumer.Consumer run
+INFO: Consumed:Message27
+May 24, 2020 3:27:27 AM producerconsumer.Consumer run
+INFO: Consumed:Message28
+May 24, 2020 3:27:27 AM producerconsumer.Consumer run
+INFO: Consumed:Message29
+May 24, 2020 3:27:27 AM producerconsumer.Consumer run
+INFO: Consumed:Message30
+May 24, 2020 3:27:27 AM producerconsumer.Consumer run
+INFO: Consumed:Message31
+May 24, 2020 3:27:27 AM producerconsumer.Consumer run
+INFO: Consumed:Message32
+May 24, 2020 3:27:27 AM producerconsumer.Consumer run
+INFO: Consumed:Message33
+May 24, 2020 3:27:27 AM producerconsumer.Consumer run
+INFO: Consumed:Message34
+May 24, 2020 3:27:27 AM producerconsumer.Consumer run
+INFO: Consumed:Message35
+May 24, 2020 3:27:27 AM producerconsumer.Consumer run
+INFO: Consumed:Message36
+May 24, 2020 3:27:27 AM producerconsumer.Consumer run
+INFO: Consumed:Message37
+May 24, 2020 3:27:27 AM producerconsumer.Consumer run
+INFO: Consumed:Message38
+May 24, 2020 3:27:27 AM producerconsumer.Consumer run
+INFO: Consumed:Message39
+May 24, 2020 3:27:27 AM producerconsumer.Consumer run
+INFO: Consumed:Message40
+May 24, 2020 3:27:27 AM producerconsumer.Consumer run
+INFO: Consumed:Message41
+May 24, 2020 3:27:27 AM producerconsumer.Consumer run
+INFO: Consumed:Message42
+May 24, 2020 3:27:27 AM producerconsumer.Consumer run
+INFO: Consumed:Message43
+May 24, 2020 3:27:27 AM producerconsumer.Consumer run
+INFO: Consumed:Message44
+May 24, 2020 3:27:27 AM producerconsumer.Consumer run
+INFO: Consumed:Message45
+May 24, 2020 3:27:27 AM producerconsumer.Consumer run
+INFO: Consumed:Message46
+May 24, 2020 3:27:27 AM producerconsumer.Consumer run
+INFO: Consumed:Message47
+May 24, 2020 3:27:27 AM producerconsumer.Consumer run
+INFO: Consumed:Message48
+May 24, 2020 3:27:27 AM producerconsumer.Consumer run
+INFO: Consumed:Message49
+May 24, 2020 3:27:27 AM producerconsumer.Consumer run
+INFO: Consumed:Message50
+May 24, 2020 3:27:27 AM producerconsumer.Consumer run
+INFO: Consumed:Message51
+May 24, 2020 3:27:27 AM producerconsumer.Consumer run
+INFO: Consumed:Message52
+May 24, 2020 3:27:27 AM producerconsumer.Consumer run
+INFO: Consumed:Message53
+May 24, 2020 3:27:27 AM producerconsumer.Consumer run
+INFO: Consumed:Message54
+May 24, 2020 3:27:27 AM producerconsumer.Consumer run
+INFO: Consumed:Message55
+May 24, 2020 3:27:27 AM producerconsumer.Consumer run
+INFO: Consumed:Message56
+May 24, 2020 3:27:27 AM producerconsumer.Consumer run
+INFO: Consumed:Message57
+May 24, 2020 3:27:27 AM producerconsumer.Consumer run
+INFO: Consumed:Message58
+May 24, 2020 3:27:27 AM producerconsumer.Consumer run
+INFO: Consumed:Message59
+May 24, 2020 3:27:27 AM producerconsumer.Consumer run
+INFO: Consumed:Message60
+May 24, 2020 3:27:27 AM producerconsumer.Consumer run
+INFO: Consumed:Message61
+May 24, 2020 3:27:27 AM producerconsumer.Consumer run
+INFO: Consumed:Message62
+May 24, 2020 3:27:27 AM producerconsumer.Consumer run
+INFO: Consumed:Message63
+May 24, 2020 3:27:27 AM producerconsumer.Consumer run
+INFO: Consumed:Message64
+May 24, 2020 3:27:27 AM producerconsumer.Consumer run
+INFO: Consumed:Message65
+May 24, 2020 3:27:27 AM producerconsumer.Consumer run
+INFO: Consumed:Message66
+May 24, 2020 3:27:27 AM producerconsumer.Consumer run
+INFO: Consumed:Message67
+May 24, 2020 3:27:27 AM producerconsumer.Consumer run
+INFO: Consumed:Message68
+May 24, 2020 3:27:27 AM producerconsumer.Consumer run
+INFO: Consumed:Message69
+May 24, 2020 3:27:27 AM producerconsumer.Consumer run
+INFO: Consumed:Message70
+May 24, 2020 3:27:27 AM producerconsumer.Consumer run
+INFO: Consumed:Message71
+May 24, 2020 3:27:27 AM producerconsumer.Consumer run
+INFO: Consumed:Message72
+May 24, 2020 3:27:27 AM producerconsumer.Consumer run
+INFO: Consumed:Message73
+May 24, 2020 3:27:27 AM producerconsumer.Consumer run
+INFO: Consumed:Message74
+May 24, 2020 3:27:27 AM producerconsumer.Consumer run
+INFO: Consumed:Message75
+May 24, 2020 3:27:27 AM producerconsumer.Consumer run
+INFO: Consumed:Message76
+May 24, 2020 3:27:27 AM producerconsumer.Consumer run
+INFO: Consumed:Message77
+May 24, 2020 3:27:27 AM producerconsumer.Consumer run
+INFO: Consumed:Message78
+May 24, 2020 3:27:27 AM producerconsumer.Consumer run
+INFO: Consumed:Message79
+May 24, 2020 3:27:27 AM producerconsumer.Consumer run
+INFO: Consumed:Message80
+May 24, 2020 3:27:27 AM producerconsumer.Consumer run
+INFO: Consumed:Message81
+May 24, 2020 3:27:27 AM producerconsumer.Consumer run
+INFO: Consumed:Message82
+May 24, 2020 3:27:27 AM producerconsumer.Consumer run
+INFO: Consumed:Message83
+May 24, 2020 3:27:27 AM producerconsumer.Consumer run
+INFO: Consumed:Message84
+May 24, 2020 3:27:27 AM producerconsumer.Consumer run
+INFO: Consumed:Message85
+May 24, 2020 3:27:27 AM producerconsumer.Consumer run
+INFO: Consumed:Message86
+May 24, 2020 3:27:27 AM producerconsumer.Consumer run
+INFO: Consumed:Message87
+May 24, 2020 3:27:27 AM producerconsumer.Consumer run
+INFO: Consumed:Message88
+May 24, 2020 3:27:27 AM producerconsumer.Consumer run
+INFO: Consumed:Message89
+May 24, 2020 3:27:27 AM producerconsumer.Consumer run
+INFO: Consumed:Message90
+May 24, 2020 3:27:27 AM producerconsumer.Consumer run
+INFO: Consumed:Message91
+May 24, 2020 3:27:27 AM producerconsumer.Consumer run
+INFO: Consumed:Message92
+May 24, 2020 3:27:27 AM producerconsumer.Consumer run
+INFO: Consumed:Message93
+May 24, 2020 3:27:27 AM producerconsumer.Consumer run
+INFO: Consumed:Message94
+May 24, 2020 3:27:27 AM producerconsumer.Consumer run
+INFO: Consumed:Message95
+May 24, 2020 3:27:27 AM producerconsumer.Consumer run
+INFO: Consumed:Message96
+May 24, 2020 3:27:27 AM producerconsumer.Consumer run
+INFO: Consumed:Message97
+May 24, 2020 3:27:27 AM producerconsumer.Consumer run
+INFO: Consumed:Message98
+May 24, 2020 3:27:27 AM producerconsumer.Consumer run
+INFO: Consumed:Message99
+May 24, 2020 3:27:27 AM producerconsumer.Consumer run
+INFO: Consumed:-1
+May 24, 2020 3:27:27 AM producerconsumer.Consumer run
+INFO: Consumer halting: producer finished generating all the messages...
+
+Process finished with exit code 0
