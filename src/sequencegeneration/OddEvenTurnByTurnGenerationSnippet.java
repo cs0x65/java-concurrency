@@ -54,7 +54,7 @@ import java.util.logging.Logger;
  *  essentially resulting into the one generator updating it's local copy of currentNumber- rather pointing to the
  *  incremented copy of currentNumber.
  *  But other generator doesn't get to see these changes as it's holding on to it's stale copy of local currentNumber
- *  and there's new way it can see the updated copy from other generator.
+ *  and there's NO way it can see the updated copy from other generator.
  *  Hence, the programs just blocks after printing the 1st odd number; EvenNumberGenerator waits forever on the
  *  condition:
  *  while (currentNumber % 2 != 1){

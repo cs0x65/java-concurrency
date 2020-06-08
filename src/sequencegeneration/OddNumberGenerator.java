@@ -49,7 +49,7 @@ public class OddNumberGenerator implements Runnable{
                         e.printStackTrace();
                     }
                 }
-                logger.info("Next even number: "+aiLock.addAndGet(1));
+                logger.info("Next odd number: "+aiLock.addAndGet(1));
                 lock.notify();
             }
             try {
@@ -74,7 +74,7 @@ public class OddNumberGenerator implements Runnable{
                 }
                 OddEvenTurnByTurnGenerationSnippet.setCurrentNumber(
                         OddEvenTurnByTurnGenerationSnippet.getCurrentNumber() + 1);
-                logger.info("Next even number: "+OddEvenTurnByTurnGenerationSnippet.getCurrentNumber());
+                logger.info("Next odd number: "+OddEvenTurnByTurnGenerationSnippet.getCurrentNumber());
                 lock.notify();
             }
             try {
